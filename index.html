@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>KGGen 知识图谱生成系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background-color: #f5f7fa;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 32px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .desc {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+        .result-img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>KGGen 知识图谱自动生成系统</h1>
+        <p class="desc">
+            基于通义千问大模型 API 实现<br>
+            完成文本三元组抽取、实体聚类、知识图谱可视化
+        </p>
+        <!-- 展示你生成的知识图谱图片 -->
+        <img src="kg_result.png" alt="知识图谱结果" class="result-img">
+    </div>
+</body>
+</html>
